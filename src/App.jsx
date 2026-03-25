@@ -164,7 +164,7 @@ export default function App() {
         </div>
         
         <div className="bg-slate-50 p-4 text-center">
-          <p className="text-[9px] text-slate-400 font-bold uppercase tracking-[0.2em]">Metropolitan Cathedral of San Fernando •Ministry of Altar Servers</p>
+          <p className="text-[9px] text-slate-400 font-bold uppercase tracking-[0.2em]">Metropolitan Cathedral of San Fernando • Ministry of Altar Servers</p>
         </div>
       </div>
     </div>
