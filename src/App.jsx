@@ -20,11 +20,11 @@ const firebaseConfig = {
 };
 
 // Initialize Services
-const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
+const APP_PATH_ID = '1:85118501498:web:8e3f1fa68535963736f1c3';
+const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-const APP_PATH_ID = 'altar-schedule-app';
 
 const MASS_TIMES = [
   "5:00 AM", "6:30 AM", "8:00 AM", "9:30 AM",
