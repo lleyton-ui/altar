@@ -1,25 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { initializeApp } from 'firebase/app';
-import { 
-  getFirestore, 
-  collection, 
-  addDoc, 
-  serverTimestamp 
-} from 'firebase/firestore';
-import { 
-  getAuth, 
-  signInAnonymously, 
-  onAuthStateChanged 
-} from 'firebase/auth';
-import { 
-  User, 
-  Clock, 
-  ShieldCheck, 
-  CheckCircle2,
-  Loader2,
-  AlertCircle,
-  RefreshCcw
-} from 'lucide-react';
+import { getFirestore, collection, addDoc, serverTimestamp } from 'firebase/firestore';
+import { getAuth, signInAnonymously, onAuthStateChanged } from 'firebase/auth';
+import { User, Clock, CheckCircle2,Loader2,AlertCircle,RefreshCcw} from 'lucide-react';
 import { getAnalytics } from "firebase/analytics";
 
 // TODO: Add SDKs for Firebase products that you want to use
